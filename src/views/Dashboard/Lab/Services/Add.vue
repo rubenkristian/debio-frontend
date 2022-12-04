@@ -174,7 +174,6 @@
                         <label style="font-size: 12px;"> Maximum Duration </label>
                         <v-text-field
                           dense
-                          label="Maximum Duration"
                           placeholder="14"
                           min="0"
                           max="30"

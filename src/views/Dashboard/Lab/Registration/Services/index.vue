@@ -268,7 +268,7 @@
     <DialogAlert
       :show="dialogAlert"
       btnText="Continue"
-      textAlert="You have been submitted your lab registration request, we will inform you as soon as possible"
+      textAlert="You have submitted your lab registration request, we will inform you as soon as possible"
       imgPath="success.png"
       imgWidth="75"
       @toggle="dialogAlert = $event"

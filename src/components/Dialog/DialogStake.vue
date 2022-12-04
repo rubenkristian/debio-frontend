@@ -18,7 +18,7 @@
               consent but there will be a period of 6 days to process it.
             </li>
             <li class="pb-5">
-              By Unstaking your fund, you will be an inactive users.
+              By unstaking your dbio token, you will be an inactive users.
             </li>
             <li class="pb-5">
               On the condition that your verification is rejected, your fund
