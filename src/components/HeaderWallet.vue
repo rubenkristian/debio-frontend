@@ -139,7 +139,8 @@ export default {
       this.polkadotWallets.forEach(async (wallet) => {
         if (wallet.name !== "debio") {
           const data = this.octopusAsset.find(a => a.name === wallet.name)
-          if (!data) return
+
+          if (!data || !data.data) return
           wallet.balance = this.web3.utils.fromWei(data.data.balance.replaceAll(",", ""), wallet.unit)
           wallet.id = data.id
           if (wallet.name === "usdt") this.setUSDTBalance(wallet.balance)
